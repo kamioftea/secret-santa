@@ -1,0 +1,6 @@
+*config.json
+secret-santa
+/node_modules
+emails.list
+*.log
+

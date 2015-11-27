@@ -1,0 +1,22 @@
+{
+  "name": "secret-santa",
+  "version": "1.0.0",
+  "description": "Secret Santa Mailer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "echo \"#! /usr/bin/env node\" > secret-santa; babel index.js >> secret-santa; chmod u+x secret-santa"
+  },
+  "author": "Jeff Horton <jeff@goblinoid.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "highland": "^2.5.1",
+    "nconf": "^0.8.2",
+    "nodemailer": "^1.10.0",
+    "shuffle-array": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.2.0"
+  }
+}
